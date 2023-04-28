@@ -13,7 +13,7 @@ html {
 #navbar{
     display: flex;
     border-bottom: 1px solid gray;
-    padding: 14px 360px;
+    padding: 0px 360px;
     justify-content: space-between;
 }
 
@@ -55,36 +55,53 @@ button:hover {
     color: #9e23ff;
 }
 
+#navbar-left{
+    display: flex;
+}
+
 div#navbar-left img {
     width: 8em;
-    cursor: pointer
+    cursor: pointer;
 }
 
-.dropdown{
-    display: inline-block;
+.drop-link-a{
+    padding: 16px;
+    /* font-size: 16px; */
+    border: none;
+}
+
+.dropdown-a{
     position: relative;
+    display: inline-block;
 }
 
-.dropdown-menu{
+.dropdown-menu-a{
     display: none;
-    position:absolute;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    padding: 0px;
+    border: 1px solid black;
+    margin-left: 12px;
+    padding: 8px;
 }
 
-.dropdown:hover .dropdown-menu{
-    display: block;
-}
+.dropdown-a:hover .dropdown-menu-a {display: block;}
 
 .dropdown-menu li{
     list-style: none;
     margin-bottom: 1em;
 }
 
-.dropdown-menu li a{
-    text-decoration: none;
+.dropdown-menu-a a{
     color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
+
+.dropdown-menu-a a:hover {color: #6b53f0;}
 
 
 
