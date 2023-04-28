@@ -1,9 +1,14 @@
 
-
-
 html {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
+}
+
+#navbar{
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding: 14px 360px;
+    justify-content: space-between;
 }
 
 p {
