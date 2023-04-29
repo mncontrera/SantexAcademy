@@ -1,0 +1,69 @@
+#impact-container{
+    background-color: #201b24;
+    /* padding: 50px 0px; */
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+#impact{
+    display: flex;
+    flex-direction: row;
+    color: #d8d3e3;
+    margin: 0px 440px;
+    padding: 100px 0px;
+}
+
+.left-impact{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* padding-right: 9%; */
+}
+
+.left-impact .h2-div{
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.left-impact .h2-div h2{
+    margin-bottom: 0px;
+}
+
+.left-impact .p-div{
+    margin-top: 0px;
+    line-height: 1.4;
+}
+
+.right-impact{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.localidades-number, .mentores-number, .participantes-number{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.localidades-text, .mentores-text, .participantes-text{
+    color: #797d82;
+}
+
+.mentores-plus{
+    font-size: 30px;
+    color: #6b53f0;
+}
+
+.localidades-container, .mentores-container, .participantes-container{
+    margin-right: 25px;
+}
+
+.mentores-plus-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

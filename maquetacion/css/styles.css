@@ -17,7 +17,7 @@ html {
     justify-content: space-between;
 }
 
-p {
+#navbar p {
     margin-right: 2em;
     font-weight: bold;
     font-size: 0.9em;
@@ -25,7 +25,7 @@ p {
     cursor: pointer;
 }
 
-p:hover{
+#navbar p:hover{
     color: #6b53f0;
 }
 
