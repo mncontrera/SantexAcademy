@@ -4,17 +4,13 @@
     width: 300px;
 } */
 
-/* como hago para que la descripcion del programado el texto ocupe menos que todo el elemento? no habria necesidad del margen para distanciar del boton debajo */
-
 .capacitaciones .estafas-virtuales .imagen img{
     height: auto;
-    /* width: 500px; */
     border-radius: 0px 30px 30px;
     max-width: 100%;
 }
 
 #capacitaciones-container{
-    /* background-color: aqua; */
     margin: 0px 330px;
     margin-top: 150px;
     margin-bottom: 100px;
@@ -72,12 +68,12 @@
     border-radius: 20px;
     padding: 10px 25px;
     text-decoration: none;
-    display: inline-block; /*al escribir esta linea aparecio un espacio entre este y la descripcion, sera el margen ese espacio y la razon exacta?*/
+    display: inline-block; /*check y n*/
     font-size: 14px;
     line-height: 1;
     color: black;
     font-size: 12px;
-    font-weight: 500; /*usar un span para los estilos del texto seria mejor parece, despues lo puedo mejorar aunque de momento se ve igual*/
+    font-weight: 500; /*usar un span para los estilos del texto para mejorar?*/
 }
 
 .capacitaciones .estafas-virtuales .info .mas-info a .fa-arrow-right-long{
@@ -103,7 +99,6 @@
 .capacitaciones .seguridad-informatica .info{
     display: flex;
     flex-direction: column;
-    /* align-content: center; */
     justify-content: center;
     padding: 0px 50px;
     margin: 0px 1.91%;
@@ -126,12 +121,12 @@
     border-radius: 20px;
     padding: 10px 25px;
     text-decoration: none;
-    display: inline-block; /*al escribir esta linea aparecio un espacio entre este y la descripcion, sera el margen ese espacio y la razon exacta?*/
+    display: inline-block;
     font-size: 14px;
     line-height: 1;
     color: black;
     font-size: 12px;
-    font-weight: 500; /*usar un span para los estilos del texto seria mejor parece, despues lo puedo mejorar aunque de momento se ve igual*/
+    font-weight: 500;
 }
 
 .capacitaciones .seguridad-informatica .info .mas-info a .fa-arrow-right-long{
@@ -150,7 +145,6 @@
 
 .capacitaciones .seguridad-informatica .imagen img{
     height: auto;
-    /* width: 500px; */
     border-radius: 30px 30px 0px;
     max-width: 100%;
 }

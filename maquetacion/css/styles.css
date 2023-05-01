@@ -47,12 +47,12 @@ button:hover {
     color: white;
 }
 
-.fa-instagram, .fa-linkedin-in{
+#navbar .fa-instagram, .fa-linkedin-in{
     margin-right: 2em;
     cursor: pointer;
 }
 
-.fa-brands:hover{
+#navbar .fa-brands:hover{
     color: #9e23ff;
 }
 
