@@ -1,16 +1,17 @@
 #alianzas-contenedor{
     margin: 0px 330px;
+    margin-bottom: 150px;
 }
 
 #slideshow {
     width:1200px;
     margin:0 auto;
     overflow:hidden;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width:3353px; /*  x 14 */
     position:relative;
     /* -webkit-animation:slide 10s ease-in-out infinite;
@@ -23,6 +24,53 @@
 .alianzas .container{
     transform: translate(0%,-0%);
     animation: slide 8s ease-in-out infinite;
+}
+
+.alianzas #slideshow{
+    position: relative;
+    height: 95px; /*la altura del elemento aumento por el overflow hidden, bajar manualmente a 95px*/
+}
+
+.alianzas #slideshow .left-arrow{
+    position: absolute;
+    left: 0;
+    top: 34px;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0,0,0,.5);
+    background-repeat: no-repeat;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.alianzas #slideshow .left-arrow:hover, .alianzas #slideshow .right-arrow:hover{
+    background-color: #6b53f0;
+}
+
+.alianzas #slideshow .left-arrow i, .alianzas #slideshow .right-arrow i{
+    color: white;
+}
+
+.alianzas #slideshow .right-arrow{
+    position: absolute;
+    right: 0;
+    top: 35px;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0,0,0,.5);
+    background-repeat: no-repeat;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    cursor: pointer
 }
 
 .container section {
@@ -50,15 +98,17 @@
 .container section:nth-child(14) {background-image: url(https://technologywithpurpose.org/wp-content/uploads/2022/10/alianza-grupo-inteligencia-educativa.png);}
 
 .alianzas .container section{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     /* background-size: cover; */
     object-fit: scale-down;
     width: 100%;
     filter: grayscale(100%);
+    opacity: 0.5;
 }
 
 .alianzas .container section:hover{
     filter: grayscale(0%);
+    opacity: 1;
 }
 
 .alianzas .container:hover {
