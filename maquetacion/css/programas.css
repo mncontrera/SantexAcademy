@@ -1,0 +1,160 @@
+/* .programas .xacademy .imagen{
+    background-image: url(https://technologywithpurpose.org/wp-content/uploads/2022/11/xacademy-01.jpg);
+    height:auto;
+    width: 300px;
+} */
+
+/* como hago para que la descripcion del programado el texto ocupe menos que todo el elemento? no habria necesidad del margen para distanciar del boton debajo */
+
+.programas .xacademy .imagen img{
+    height: auto;
+    /* width: 500px; */
+    border-radius: 0px 30px 30px;
+    max-width: 100%;
+}
+
+#programas-container{
+    /* background-color: aqua; */
+    margin: 0px 330px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.programas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.programas .xacademy{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.programas .xacademy .imagen{
+    width: 50%;
+    /* margin-right: 3.84%; */
+}
+
+.programas .xacademy .info-container{
+    width: 50%;
+    display: flex;
+}
+
+.programas .xacademy .info{
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    justify-content: center;
+    padding: 0px 50px;
+    margin-left: 3.81%;
+}
+
+.programas .xacademy .info .titulo img{
+    width: 200px;
+    /* max-width: 100%; */
+    /* height: auto; */
+}
+
+.programas .xacademy .info .mas-info{
+    display: block;
+}
+
+.programas .xacademy .info .descripcion{
+    margin-bottom: 20px !important;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.programas .xacademy .info .mas-info a{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block; /*al escribir esta linea aparecio un espacio entre este y la descripcion, sera el margen ese espacio y la razon exacta?*/
+    font-size: 14px;
+    line-height: 1;
+    color: black;
+    font-size: 12px;
+    font-weight: 500; /*usar un span para los estilos del texto seria mejor parece, despues lo puedo mejorar aunque de momento se ve igual*/
+}
+
+.programas .xacademy .info .mas-info a .fa-arrow-right-long{
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.programas .xacademy .info .mas-info a:hover{
+    background-color: black;
+    color: white;
+}
+
+.programas .robotica-educativa{
+    display: flex;
+    flex-direction: row;
+}
+
+.programas .robotica-educativa .info-container{
+    width: 50%;
+    display: flex;
+}
+
+.programas .robotica-educativa .info{
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    justify-content: center;
+    padding: 0px 50px;
+    margin: 0px 1.91%;
+}
+
+.programas .robotica-educativa .info .titulo{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.programas .robotica-educativa .info .descripcion{
+    margin-bottom: 20px !important;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.programas .robotica-educativa .info .mas-info a{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block; /*al escribir esta linea aparecio un espacio entre este y la descripcion, sera el margen ese espacio y la razon exacta?*/
+    font-size: 14px;
+    line-height: 1;
+    color: black;
+    font-size: 12px;
+    font-weight: 500; /*usar un span para los estilos del texto seria mejor parece, despues lo puedo mejorar aunque de momento se ve igual*/
+}
+
+.programas .robotica-educativa .info .mas-info a .fa-arrow-right-long{
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.programas .robotica-educativa .info .mas-info a:hover{
+    background-color: black;
+    color: white;
+}
+
+.programas .robotica-educativa .imagen{
+    width: 50%;
+}
+
+.programas .robotica-educativa .imagen img{
+    height: auto;
+    /* width: 500px; */
+    border-radius: 30px 30px 0px;
+    max-width: 100%;
+}
+
+.encabezado h3{
+    font-size: 28px;
+}
