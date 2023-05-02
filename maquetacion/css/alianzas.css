@@ -1,6 +1,6 @@
 #alianzas-contenedor{
     margin: 0px 330px;
-    margin-bottom: 150px;
+    margin-bottom: 58px;
 }
 
 #slideshow {
@@ -98,8 +98,6 @@
 .container section:nth-child(14) {background-image: url(https://technologywithpurpose.org/wp-content/uploads/2022/10/alianza-grupo-inteligencia-educativa.png);}
 
 .alianzas .container section{
-    /* border: 2px solid blue; */
-    /* background-size: cover; */
     object-fit: scale-down;
     width: 100%;
     filter: grayscale(100%);

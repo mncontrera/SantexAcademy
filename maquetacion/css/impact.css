@@ -1,7 +1,6 @@
 #impact-container{
     background-color: #201b24;
-    /* padding: 50px 0px; */
-    margin-top: 75px;
+    margin-top: 90px;
     display: flex;
     justify-content: center;
 }
@@ -12,6 +11,7 @@
     color: #d8d3e3;
     margin: 0px 440px;
     padding: 100px 0px;
+    align-items: flex-end; /**/
 }
 
 .left-impact{
@@ -19,6 +19,7 @@
     flex-direction: column;
     width: 50%;
     /* padding-right: 9%; */
+    padding-right: 25px; /**/
 }
 
 .left-impact .h2-div{
@@ -42,6 +43,7 @@
     width: 50%;
     align-items: center;
     justify-content: space-evenly;
+    margin-bottom: 28px;/**/
 }
 
 .localidades-number, .mentores-number, .participantes-number{
@@ -74,7 +76,7 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
-    width: 100vw;
+    /* width: 100vw; */
     object-fit: cover;
     background-attachment: fixed;   
 }

@@ -5,7 +5,7 @@
 }
 
 #main-container #main{
-    margin-top: 60px;
+    margin-top: 130px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -21,7 +21,7 @@
 }
 
 #text-container .text{
-    font-size: 26px;
+    font-size: 27px;
     line-height: 1.2;
     width: 53%;
     text-align: center;

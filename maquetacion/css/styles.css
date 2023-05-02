@@ -8,20 +8,28 @@
 html {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+}
+
+#navbar-container{
+    /* position: relative; */
+    width: 100vw;
+    position: fixed;
+    background-color: white;
 }
 
 #navbar{
     display: flex;
     border-bottom: 1px solid gray;
-    padding: 0px 360px;
+    padding: 0px 330px;
     justify-content: space-between;
+    /* position: fixed; */
 }
 
 #navbar p {
     margin-right: 2em;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 0.8125em;
     font-weight: 500;
     cursor: pointer;
 }
@@ -100,6 +108,7 @@ div#navbar-left img {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    font-size: 0.8125em;
 }
 
 .dropdown-menu-a a:hover {color: #6b53f0;}
