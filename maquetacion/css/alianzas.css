@@ -7,7 +7,6 @@
     width:1200px;
     margin:0 auto;
     overflow:hidden;
-    /* background-color: aqua; */
 }
 
 .container {
@@ -113,24 +112,6 @@
    animation-play-state:paused;
    -webkit-animation-play-state:paused;
 }
-/*
-@-webkit-keyframes slide {
-    0% {left:0;}
-    2% {left:-714px;}
-    59% {left:-714px;}
-    60% {left:-1428px;}
-    98% {left:-1428px;}
-    60% {left:-2200px;}
-    100% {left:0px;}
-}
-
-@keyframes slide {
-    0% {left:0;}
-    10% {left:-714px;}
-    60% {left:-1428px;}
-    /*60% {left:-2200px;}
-    100% {left: 0px;}
-} */
 
 @keyframes slide{
     0%{

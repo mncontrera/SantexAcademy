@@ -21,7 +21,7 @@ html {
 #navbar{
     display: flex;
     border-bottom: 1px solid gray;
-    padding: 0px 330px;
+    padding: 0px 320px;
     justify-content: space-between;
     /* position: fixed; */
 }
@@ -45,7 +45,7 @@ button {
     height: 2.5em;
     border: 2px solid black;
     font-size: 0.8em;
-    width: 8em;
+    width: 8.2em;
     margin-right: 2em;
     cursor: pointer
 }
@@ -77,6 +77,7 @@ div#navbar-left img {
     padding: 16px;
     /* font-size: 16px; */
     border: none;
+    padding-right: 0px;
 }
 
 .dropdown-a{
@@ -94,6 +95,7 @@ div#navbar-left img {
     border: 1px solid black;
     margin-left: 12px;
     padding: 8px;
+    /* margin-top: 15px; */
 }
 
 .dropdown-a:hover .dropdown-menu-a {display: block;}
@@ -137,5 +139,58 @@ div#navbar-left img {
 @media (width >= 3500px) {
     html {
         font-size: 32px;
+    }
+}
+
+
+
+@media (width <= 600px) {
+    #navbar-container{
+        display: none;
+    }
+    header{
+        display: block;
+    }
+    #navbar{
+        padding: 0px 30px;
+    }
+    #main-container{
+        margin: 0px 52px;
+    }
+    #main-container #main{
+        margin-top: 40px;
+    }
+    #text-container .text {
+        font-size: 20px;
+        width: 100%;
+    }
+    #impact{
+        margin: 0px 40px;
+        flex-direction: column;
+    }
+    .left-impact{
+        width: 70%;
+    }
+    .right-impact{
+        flex-direction: column;
+        width: 90%;
+    }
+    .twp-img{
+        display: none;
+    }
+    #programas-container{
+        margin: 0px 40px;
+    }
+    .programas{
+        flex-direction: column;
+    }
+    .programas .xacademy {
+        flex-direction: column;
+    }
+    #capacitaciones-container{
+        margin: 0px 40px;
+    }
+    .capacitaciones .estafas-virtuales {
+        flex-direction: column;
     }
 }
